@@ -736,4 +736,6 @@
   <string name="WritePaperPhrase.previous">Назад</string>
   <!-- 1 of 3 -->
   <string name="WritePaperPhrase.step">%1$d из %2$d</string>
+    <string name="Biblepay.BOINCPassword">пароль</string>
+    <string name="Biblepay.BOINCUser">Эл. почта BOINC</string>
 </resources>

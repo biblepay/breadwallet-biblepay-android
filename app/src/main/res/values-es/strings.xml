@@ -747,4 +747,10 @@
   <string name="Settings.other">Otro</string>
   <string name="Settings.preferences">Preferencias</string>
   <string name="Settings.updatePin">Actualizar PIN</string>
+    <string name="Biblepay.Associate">Asociar a BOINC</string>
+  <string name="Biblepay.AssociateDescription">Asocie esta cartera a una cuenta de BOINC para recibir recompensas en Biblepay</string>
+    <string name="Biblepay.BOINCPassword">Contraseña</string>
+    <string name="Biblepay.BOINCUser">Correo electrónico BOINC</string>
+  <string name="Biblepay.ConnectingBOINC">Conectando a BOINC</string>
+  <string name="Biblepay.AssociateError">Error asociando la cuenta BOINC</string>
 </resources>

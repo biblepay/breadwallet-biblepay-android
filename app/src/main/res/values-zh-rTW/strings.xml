@@ -736,4 +736,6 @@
   <string name="WritePaperPhrase.previous">上一頁</string>
   <!-- 1 of 3 -->
   <string name="WritePaperPhrase.step">%2$d 之 %1$d</string>
+    <string name="Biblepay.BOINCPassword">密碼</string>
+  <string name="Biblepay.BOINCUser">電子郵件 BOINC</string>
 </resources>

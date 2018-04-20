@@ -736,4 +736,6 @@
   <string name="WritePaperPhrase.previous">Vorige</string>
   <!-- 1 of 3 -->
   <string name="WritePaperPhrase.step">%1$d van %2$d</string>
+    <string name="Biblepay.BOINCPassword">Wachtwoord</string>
+    <string name="Biblepay.BOINCUser">BOINC E-mail</string>
 </resources>

@@ -767,6 +767,13 @@
   <string name="Dialog.screenAlteringTitle">"Screen Altering App Detected</string>
   <string name="Dialog.screenAlteringMessage">"BiblePay will not function properly unless screen altering apps(such as Twilight) are disabled. </string>
   <string name="About.footerBBP">Adapted to BiblePay by MIP</string>
+  <string name="Biblepay.Associate">Associate to BOINC</string>
+  <string name="Biblepay.AssociateDescription">Associate this wallet with a BOINC account to receive Biblepay rewards.</string>
+  <string name="Biblepay.BOINCUser">BOINC email</string>
+  <string name="Biblepay.ConnectingBOINC">Connecting to BOINC...</string>
+    <string name="Biblepay.BOINCPassword">Password</string>
+  <string name="Biblepay.AssociateError">Error associating BOINC account</string>
+    <string name="Biblepay.Associate1BBPRequired">Balance too low, you need at least 1 BBP to associate</string>
 
 
 </resources>

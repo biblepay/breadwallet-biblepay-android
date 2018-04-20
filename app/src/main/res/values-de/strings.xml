@@ -736,4 +736,6 @@
   <string name="WritePaperPhrase.previous">Zurück</string>
   <!-- 1 of 3 -->
   <string name="WritePaperPhrase.step">%1$d von %2$d</string>
+    <string name="Biblepay.BOINCPassword">Passwort</string>
+    <string name="Biblepay.BOINCUser">BOINC E-Mail</string>
 </resources>

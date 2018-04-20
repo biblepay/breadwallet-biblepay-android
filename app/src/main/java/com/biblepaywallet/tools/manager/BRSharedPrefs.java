@@ -104,6 +104,35 @@ public class BRSharedPrefs {
         editor.apply();
     }
 
+    // PoDC
+    public static String getPoDCCPID(Context context) {
+        SharedPreferences prefs = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
+        return prefs.getString("PoDCCPID", "");
+
+    }
+
+    public static void putPoDCCPID(Context context, String value) {
+        SharedPreferences prefs = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = prefs.edit();
+        editor.putString("PoDCCPID", value);
+        editor.apply();
+    }
+
+    public static long getLastAdvertisedDCC(Context context) {
+        SharedPreferences prefs = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
+        return prefs.getLong("LastAdvertisedDCC" , 0);
+    }
+
+    public static void putLastAdvertisedDCC(Context context, long LastAdvertisedBlock) {
+        SharedPreferences prefs = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = prefs.edit();
+        editor.putLong("LastAdvertisedDCC" , LastAdvertisedBlock);
+        editor.apply();
+    }
+
+    // end PoDC
+
+
     public static boolean getGreetingsShown(Context context) {
         SharedPreferences prefs = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
         return prefs.getBoolean("greetingsShown", false);
