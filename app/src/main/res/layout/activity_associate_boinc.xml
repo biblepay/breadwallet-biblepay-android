@@ -77,11 +77,9 @@
 
         <com.biblepaywallet.presenter.customviews.BRButton
             android:id="@+id/button_submit"
-            android:layout_width="0dp"
-            android:layout_height="@dimen/big_button_height"
+            android:layout_width="358dp"
+            android:layout_height="76dp"
             android:layout_marginBottom="32dp"
-            android:layout_marginEnd="@dimen/bread_margin"
-            android:layout_marginStart="@dimen/bread_margin"
             android:layout_marginTop="32dp"
             android:elevation="8dp"
             android:padding="10dp"
@@ -93,7 +91,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/line2"/>
+            app:layout_constraintTop_toBottomOf="@+id/line2" />
 
         <ImageView
             android:id="@+id/check_mark_1"
@@ -137,17 +135,14 @@
             android:id="@+id/word_edittext_first"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="@dimen/bread_margin"
-            android:layout_marginStart="@dimen/bread_margin"
-            android:layout_marginTop="0dp"
             android:background="@android:color/transparent"
             android:ems="10"
+            android:hint="@string/Biblepay.BOINCUser"
             android:inputType="textPersonName"
-            android:text="@string/Biblepay.BOINCUser"
+            app:layout_constraintHorizontal_bias="0.103"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/word_number_first"
-            app:layout_constraintHorizontal_bias="0.0"/>
+            app:layout_constraintTop_toBottomOf="@+id/word_number_first" />
 
         <View
             android:id="@+id/line1"
@@ -173,29 +168,36 @@
             android:id="@+id/word_edittext_second"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="@dimen/bread_margin"
-            android:layout_marginStart="@dimen/bread_margin"
-            android:layout_marginTop="0dp"
             android:background="@android:color/transparent"
             android:ems="10"
-            android:text="@string/Biblepay.BOINCPassword"
+            android:hint="@string/Biblepay.BOINCPassword"
             android:imeActionId="@+id/submit"
             android:imeOptions="actionSend"
             android:inputType="textPersonName"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.103"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/word_number_second"/>
+            app:layout_constraintTop_toBottomOf="@+id/word_number_second" />
 
         <View
             android:id="@+id/line2"
             android:layout_width="0dp"
             android:layout_height="1dp"
+            android:layout_marginTop="48dp"
             android:background="@color/extra_light_gray"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/word_edittext_second"
-            />
+            app:layout_constraintTop_toBottomOf="@+id/word_edittext_second" />
+
+        <CheckBox
+            android:id="@+id/checkUnbanked"
+            android:layout_width="227dp"
+            android:layout_height="31dp"
+            android:layout_marginTop="56dp"
+            android:text="@string/Check.unbanked"
+            app:layout_constraintTop_toBottomOf="@+id/word_number_second"
+            tools:layout_editor_absoluteX="16dp" />
 
     </android.support.constraint.ConstraintLayout>
 

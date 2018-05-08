@@ -17,6 +17,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.biblepaywallet.R;
+import com.biblepaywallet.presenter.activities.AssociateBOINCActivity;
 import com.biblepaywallet.presenter.activities.CurrencySettingsActivity;
 import com.biblepaywallet.presenter.activities.UpdatePinActivity;
 import com.biblepaywallet.presenter.activities.util.BRActivity;
@@ -166,6 +167,14 @@ public class SettingsActivity extends BRActivity {
             }
         }, false));
 
+        items.add(new BRSettingsItem(getString(R.string.title_activity_associate_boinc), "", new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SettingsActivity.this, AssociateBOINCActivity.class);
+                startActivity(intent);
+                overridePendingTransition(R.anim.enter_from_right, R.anim.exit_to_left);
+            }
+        }, false));
 
         items.add(new BRSettingsItem(getString(R.string.Settings_preferences), "", null, true));
 

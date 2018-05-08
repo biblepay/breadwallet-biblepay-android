@@ -753,4 +753,6 @@
     <string name="Biblepay.BOINCUser">Correo electrónico BOINC</string>
   <string name="Biblepay.ConnectingBOINC">Conectando a BOINC</string>
   <string name="Biblepay.AssociateError">Error asociando la cuenta BOINC</string>
+    <string name="Check.unbanked">Sin banco</string>
+  <string name="title_activity_associate_boinc">Asociar cuenta BOINC</string>
 </resources>

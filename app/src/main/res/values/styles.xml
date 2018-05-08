@@ -14,8 +14,7 @@
     </style>
 
     <!-- ActionBar styles -->
-    <style name="BreadActionBar"
-           parent="@style/Widget.AppCompat.ActionBar">
+    <style name="BreadActionBar" parent="@style/Widget.AppCompat.ActionBar">
         <item name="android:background">@color/white_trans</item>
     </style>
 
@@ -28,5 +27,14 @@
         <item name="android:textColor">@color/dark_blue</item>
 
     </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>
